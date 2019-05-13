@@ -39,12 +39,4 @@ w/ sub-lists
 
 [I'm a link to a web page!](http://www.kleertech.com)
 
-![alt text](https://i.imgur.com/81qyN1y.jpg)
-EXERCISE 3
-Now it's time to format intro.txt with Markdown! Let's mv intro.txt to a new file called intro.md with the command mv intro.txt intro.md
-Create a title for your portfolio project and format it as a header with #
-Format your quote using italicization and bold.
-Create a list of contact information as an unordered list using -. Make
-each means of contact a link rather than plain text (e.g. [some link](some-url.com))
-Find a relevant photo online and insert it using the syntax ![ ]( ) (see the Markdown above for full syntax)
-Portfolio Project
+![alt text](//i.imgur.com/81qyN1y.jpg)
