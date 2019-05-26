@@ -15,7 +15,6 @@ list-style: none;
 font-family: slabo;
 font-size: 30px;
 background-color:red;
-
 text-decoration: none;
 }
 #dropdown {
@@ -57,7 +56,7 @@ border:3px ridge black;
 border-radius: 10px;
 text-align:center;
 margin: 10px;
-background-image:url("portfolioimages/Abstract.jpg");
+background-image:url("Images/Abstract.jpg");
 }
 #columnBox{
 display:grid;
@@ -71,4 +70,42 @@ footer {
 margin: 0 auto;
 width:80vw;
 background: red;
+}/*Form Styles*/
+div{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#fieldbox{
+width: 700px;
+}
+#fboxtitle{
+padding:15px;
+font-size:20px;
+background:cornflowerblue;
+color:white;
+}
+.info{
+font-size: 22px;
+}
+
+#interest{
+font-size: 22px;
+}
+#comments{
+width: 350px;
+height:200px;
+font-size: 22px;
+}
+#mailbox{
+width: 100px;
+height: 100px;
+}
+#send{
+display:flex;
+justify-content: center;
+}
+#send1{
+font-size: 30px;
+font-weight:bold;
+font-variant:small-caps;
 }

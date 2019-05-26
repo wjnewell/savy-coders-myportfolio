@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1normalize.min.css"/>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<!---<link rel="stylesheet" href="styles.css"/>-->
+  <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+  <style>
+    #box1{
+      grid-area:header;
+      text-align:center;
+      font-size: 30px;
+      color:white;
+      background-color: black;
+
+    }
+    #box2{
+      grid-area:image;
+      text-align:center;
+      padding-top:20px;
+      padding-bottom: 30px;
+    }
+    #box3{
+      grid-area:sports;
+      font-size: 24px;
+     text-align:center;
+
+    }
+    #box4{
+      grid-area:stats;
+      text-align: center;
+      padding-bottom: 30px;
+
+    }
+    #box5{
+        grid-area:art;
+        font-size: 24px;
+
+    }
+    #box6{
+      grid-area:3d;
+      text-align:center;
+      padding-bottom: 30px;
+          }
+    #box7{
+      grid-area:ai;
+      font-size: 24px;
+    }
+    #box8{
+      grid-area:code;
+      text-align:center;
+      padding-bottom: 30px;
+    }
+    #box9{
+      grid-area:catalog;
+      font-size: 24px;
+    }
+    #box10{
+      grid-area:seed;
+      text-align:center;
+      padding-bottom: 30px;
+    }
+    .container{
+      display: grid;
+      grid-template-columns: 500px 500px;
+      grid-template-rows: auto;
+      grid-template-areas:
+      "header header"
+      "image image"
+      "sports stats"
+      "art 3d"
+      "ai code"
+      "catalog seed";
+      padding-left: 150px;
+    }
+  </style>
+
+  <title>About</title>
+
+</head>
+ <body>
+ <div class ="container">
+  <div id ="box1">What We're About<br>The Wide World of Web Applications</div>
+  <div id ="box2"><img src="Images/Globe.jpg" width="300" height= "217" /></div>
+  <div id ="box3">Do you like sport stats?</div>
+<div id ="box4"><img src="Images/stats.png" width="200" height="149"style="border:1px solid black"/></div>
+<div id ="box5">Want to display 3D art in a digital gallery?</div>
+<div id ="box6"><img src="Images/buddha.jpg" width="200" height="200"style="border:1px solid black"/></div>
+<div id ="box7">Want to create an online seed catalog?</div>
+<div id ="box8"><img src="Images/tomatoes.jpg" width="150" height="231"style="border:1px solid black"/></div>
+<div id ="box9">Want to learn how AI apps work?</div>
+<div id ="box10"><img src="Images/ai.jpg" width="200" height="112"style="border:1px solid black"/></div>
+ </div>
+</body>
+</html>

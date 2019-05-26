@@ -1,3 +1,5 @@
+import img from '../Images/Abstract.jpg';
+
 export default `
 <header>
   <span id="colorspecial">JW's </span>Portfolio
