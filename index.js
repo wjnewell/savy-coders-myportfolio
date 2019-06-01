@@ -1,18 +1,29 @@
-
-import Footer from './components/Footer';import Navigation from './components/Navigation';
+import Footer from './components/Footer';
+import Navigation from './components/Navigation';
 import Main from './components/Main';
 import img from './Images/Abstract.jpg';
 
-console.log(Navigation); // Test! Should log what's inside navigation
+import * as states from './store';
 
-var innerHTML = document.body.innerHTML;
+import { capitalize } from 'lodash';
 
-const state = {
-    'title': "Welcome to Wendi's Portfolio!"
-};
+import Navigo from 'navigo';
 
-document.querySelector('#root').innerHTML = `
+const router = new Navigo(window.location.origin);
+const root = document.querySelector('#root');
+
+function render(state){
+    root.innerHTML = `
 ${Navigation(state)}
 ${Main}
 ${Footer}
-${innerHTML}`;
+`;
+    router.updatePageLinks();
+}
+
+router
+    .on(':path',(params) => {
+        render(states[capitalize(params.path)]);
+    })
+    .on('/', () => render(states.Home))
+    .resolve();
