@@ -1,7 +1,7 @@
 import Footer from './components/Footer';
 import Navigation from './components/Navigation';
 import Main from './components/Main';
-import img from './Images/Abstract.jpg';
+
 
 import * as states from './store';
 
