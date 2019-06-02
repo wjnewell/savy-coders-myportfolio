@@ -1,6 +1,8 @@
 body{
 
 }
+/*Navigation*/
+
 .menubar{
  margin: 0 auto;
 width:80vw;
@@ -32,6 +34,7 @@ color:black;
 }
 
 
+/*Main*/
 header{
 font-family: slabo;
 color:black;
@@ -66,11 +69,14 @@ grid-template-areas: 'p1 p2';
 grid-gap:50px;
 }
 
+/*Footer*/
 footer {
 margin: 0 auto;
 width:80vw;
 background: red;
-}/*Form Styles*/
+}
+
+/*Contact Styles*/
 div{
   padding-top: 10px;
   padding-bottom: 10px;
@@ -108,4 +114,74 @@ justify-content: center;
 font-size: 30px;
 font-weight:bold;
 font-variant:small-caps;
+}
+
+/*About Styles*/
+
+#box1{
+  grid-area:header;
+  text-align:center;
+  font-size: 30px;
+  color:white;
+  background-color: black;
+
+}
+#box2{
+  grid-area:image;
+  text-align:center;
+  padding-top:20px;
+  padding-bottom: 30px;
+}
+#box3{
+  grid-area:sports;
+  font-size: 24px;
+ text-align:center;
+
+}
+#box4{
+  grid-area:stats;
+  text-align: center;
+  padding-bottom: 30px;
+
+}
+#box5{
+    grid-area:art;
+    font-size: 24px;
+
+}
+#box6{
+  grid-area:3d;
+  text-align:center;
+  padding-bottom: 30px;
+      }
+#box7{
+  grid-area:ai;
+  font-size: 24px;
+}
+#box8{
+  grid-area:code;
+  text-align:center;
+  padding-bottom: 30px;
+}
+#box9{
+  grid-area:catalog;
+  font-size: 24px;
+}
+#box10{
+  grid-area:seed;
+  text-align:center;
+  padding-bottom: 30px;
+}
+.container{
+  display: grid;
+  grid-template-columns: 500px 500px;
+  grid-template-rows: auto;
+  grid-template-areas:
+  "header header"
+  "image image"
+  "sports stats"
+  "art 3d"
+  "ai code"
+  "catalog seed";
+  padding-left: 150px;
 }

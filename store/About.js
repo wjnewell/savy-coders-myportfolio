@@ -1,7 +1,7 @@
-import links from 'Links';
+import links from './Links';
 
 export default {
     'pageContent': 'About',
-    'title'; 'About',
+    'title': 'About',
     'links': links
 };

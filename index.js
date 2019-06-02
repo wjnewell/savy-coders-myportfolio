@@ -15,8 +15,8 @@ const root = document.querySelector('#root');
 function render(state){
     root.innerHTML = `
 ${Navigation(state)}
-${Main}
-${Footer}
+${Main(state)}
+${Footer(state)}
 `;
     router.updatePageLinks();
 }
