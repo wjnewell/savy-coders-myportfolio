@@ -1,4 +1,4 @@
-export default function(){
+export default function(state){
     return `
 
 <h1>Keep In Touch</h1>
@@ -28,7 +28,7 @@ export default function(){
 </div>
 <div id='send'>
   <p id='send1'>Send
-  <input id='mailbox' type="image" src='images/mailbox.jpg'>
+  <input id='mailbox' type="image" src='${state.image}'>
 </p>
 </div>
 </form>`;

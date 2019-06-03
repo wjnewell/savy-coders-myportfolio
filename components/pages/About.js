@@ -4,7 +4,7 @@ export default function(state){
 <div class ="container">
   <div id ="box1">What We're About<br>The Wide World of Web Applications</div>
   <div id ="box2"><img src="${state.images.globe}" width="300" height= "217" /></div>
-  <div id ="box3">Do you like sport stats?</div>
+  <div id ="box3">Do you like sports stats?</div>
 <div id ="box4"><img src="${state.images.stats}" width="200" height="149"style="border:1px solid black"/></div>
 <div id ="box5">Want to display 3D art in a digital gallery?</div>
 <div id ="box6"><img src="${state.images.buddha}" width="200" height="200"style="border:1px solid black"/></div>
